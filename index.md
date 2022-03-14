@@ -15,3 +15,4 @@ In order to study for the AP college board test I will not only work on my mater
 Brain Write - https://github.com/shekark642/M222--slackbots/wiki/Wire-Frame-&-Brain-Write
 <br>
 Team Roles (Scroll to Bottom) - https://github.com/shekark642/M221p2-roopies
+Review Ticket - https://github.com/shekark642/M221p2-roopies/issues/30
