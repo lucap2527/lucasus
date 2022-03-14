@@ -1,37 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to My Individual Page
 
-You can use the [editor on GitHub](https://github.com/lucap2527/lucasus/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+**Contains Test Prep plans and participation for success on AP exam (required for test takers)**
+<br>
+In order to study for the AP college board test I will not only work on my material given to me throughout this trimester but also reviewing past material. The way I will be doing that is by going through past projects, assignements and repls that provide context in past topics. Also, listed on the actual collegeboard site is lists of the topics that will be covered in this exam. Using this page I will be able to get a complete understanding of all the different topics on the test and using past assignments I will be able to understand how to actually use the topics in a real assignement, piecing together all the different pieces. ALso, on the actual, college board youtube channel there is tutorials and youtube videos covering each of the different units covered by CSA at school. This will further my understanding in each topic as the videos also provide examples that will help me visually learn the concepts and actually practice them without just learning about them through words.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lucap2527/lucasus/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
