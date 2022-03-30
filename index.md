@@ -24,4 +24,4 @@
 5. size (to get the size of the stack)
 6. search (to search for objects)
 * Here's an example of some functions above at work:
-![deer](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-03-20%20205017.png)
+![deer](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-03-30%20100351.png)
