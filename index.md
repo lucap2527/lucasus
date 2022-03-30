@@ -5,9 +5,7 @@
 ## Queue Description ##
 * The Queue interface present in the java.util package and extends the Collection interface is used to hold the elements about to be processed in FIFO(First In First Out) order. It is an ordered list of objects with its use limited to insert elements at the end of the list and deleting elements from the start of the list, (i.e.), it follows the FIFO or the First-In-First-Out principle.
 * The remove() method of Queue Interface returns and removes the element at the front the container. It deletes the head of the container. The method throws an NoSuchElementException when the Queue is empty.
-![amogus](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-03-20%20203734.png)
 * In order to add an element in a queue, we can use the add() method. The insertion order is not retained in the PriorityQueue. The elements are stored based on the priority order which is ascending by default. 
-![amogus](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-03-20%20203709.png)
 ## Other Learnings ##
 * For the purpose of this assignment we had to use functions that were not previously described and familiar to us from previous expirience. In order to solve this issue some learning had to be done on my own time.
 * Multiple tokens can be compared to one another such as greater than or less than the other token.
