@@ -30,3 +30,12 @@
 * This is an example of a insertion sort code
 
 ![image](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-03%20211537.png)
+
+**Bubble Sort**
+* Simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order
+* Bubble sort is often used to introduce the concept of a sorting algorithm
+* In computer graphics it is popular for its capability to detect a very small error
+* Works by sorting one value at a time, for example if you are running a sort to sort it by least to greatest (5,1,3) will turn into (1,5,3) on the first pass because it only goes one at a time
+* This is an example of a bubble sort pass through 
+
+![image1](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-03%20211911.png)
