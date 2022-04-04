@@ -39,3 +39,18 @@
 * This is an example of a bubble sort pass through 
 
 ![image1](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-03%20211911.png)
+
+**Analytics**
+* Below is the summarized data from 12 trials of each sort type
+* Each trial includes a given 5000 elements per sort run
+* Below is what the data looks like after running 1 sort trial
+* 
+![image2](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-03%20212421.png)
+
+* The Analytical data is as follows:
+1. Bubble Sort - 112000423 Nanoseconds Average Random - 298
+2. Selection Sort - 89814213 Nanoseconds Average Rnadom - 273
+3. Insertion Sort - 79342132 Nanoseconds Average Random - 189
+4. Merge Sort - 91234121 Nanoseconds Average random - 255
+
+* As we can see by the data given above the fastest average time on my 12 attempts was the Insertion Sort which ran at 79342132 average, calculated by adding all the times and dividing by 12, same for the randoms.
