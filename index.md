@@ -44,7 +44,7 @@
 * Below is the summarized data from 12 trials of each sort type
 * Each trial includes a given 5000 elements per sort run
 * Below is what the data looks like after running 1 sort trial
-* 
+
 ![image2](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-03%20212421.png)
 
 * The Analytical data is as follows:
