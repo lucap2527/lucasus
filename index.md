@@ -18,10 +18,6 @@
 * Merge Sort is a Divide and Conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves
 * The merge() function is used for merging two halves. The merge(arr, l, m, r) is a key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one
 *  the array is recursively divided into two halves till the size becomes 1. Once the size becomes 1, the merge processes come into action and start merging arrays back till the complete array is merged.
-*  This is an example of bubble sort code
-
-![image1](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-03%20211911.png)
-
 *  Overall time complexity of Merge sort is O(nLogn), Space complexity is O(n)
 *  This is an example flow chart of a merge sort in progress, top is the values given
 
@@ -44,6 +40,10 @@
 * Bubble sort is often used to introduce the concept of a sorting algorithm
 * In computer graphics it is popular for its capability to detect a very small error
 * Works by sorting one value at a time, for example if you are running a sort to sort it by least to greatest (5,1,3) will turn into (1,5,3) on the first pass because it only goes one at a time
+* This is an example of bubble sort code
+
+![image2](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-03%20213818.png)
+
 * This is an example of a bubble sort pass through 
 * This algorithm has a worst-case time complexity of O(n2). The bubble sort has a space complexity of O(1).
 
