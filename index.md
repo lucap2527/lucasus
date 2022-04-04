@@ -4,5 +4,7 @@
 * Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity
 * Big O notation describes the complexity of your code using algebraic terms, with respect to the input size
 * This is the formal definition of the Big O
-
 ![baka](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-03%20210457.png)
+**Selection Sort**
+* The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array
+* In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray
