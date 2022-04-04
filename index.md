@@ -19,3 +19,11 @@
 *  This is an example flow chart of a merge sort in progress, top is the values given
 
 ![sus](https://github.com/lucap2527/lucasus/blob/gh-pages/Merge-Sort-Tutorial.png)
+
+**Insertion Sort**
+* The array is virtually split into a sorted and an unsorted part
+* Values from the unsorted part are picked and placed at the correct position in the sorted part
+* These are the go to steps for running a insertion sort
+1. Iterate from arr[1] to arr[n] over the array
+2. Compare the current element (key) to its predecessor
+3. If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element
