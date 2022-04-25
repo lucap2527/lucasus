@@ -1,110 +1,65 @@
-## Build a GitHub page that describes Sort implementations and the Big O complexity of these Sorts ## 
-**Big O Complexity**
-* Big O notation is one of the most fundamental tools for computer scientists to analyze the cost of an algorithm. It is a good practice for software engineers to understand in-depth as well.
-* Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity
-* Big O notation describes the complexity of your code using algebraic terms, with respect to the input size
-* This is the formal definition of the Big O
+# Study Plan For Week 1
+* Monday: Code academy daily lessons for ap test, collegeboard videos, 
+* Tuesday: previous ap exam mc/frqs, Code academy daily lessons for ap test
+* Wednesday: Collegeboard videos/notes, code academy, look at tips videos
+* Thursday: Look into specific topics such as array lists or two dimensional arrays, code academy 
+* Friday: Code academy, previous ap exam mc/frqs, if extra time is available look into specific topics that you don't understand or are having trouble with
+# Study Guide and Basic Resources
+* Unit 1 Primitive Types: https://www.w3schools.com/java/java_data_types.asp 
+* Unit 2: Using Objects: https://www.geeksforgeeks.org/data-types-in-java/
+* Unit 3: Boolean Expressions and if Statements: https://www.w3schools.com/java/java_conditions.asp
+* Unit 4: Iteration: https://www.geeksforgeeks.org/iterators-in-java/
+* Unit 5: Writing Classes: https://www.w3schools.com/java/java_classes.asp
+* Unit 6: Array: https://www.w3schools.com/java/java_arrays.asp
+* Unit 7: ArrayList: https://www.w3schools.com/java/java_arraylist.asp
+* Unit 8: 2D Array: https://www.geeksforgeeks.org/multidimensional-arrays-in-java/
+* Unit 9: Inheritance: https://www.geeksforgeeks.org/inheritance-in-java/
+* Unit 10: Recursion: https://www.w3schools.com/java/java_recursion.asp
 
-![baka](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-03%20210457.png)
+# College Board Practice MC Corrections
+![score](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-24%20190203.png)
 
-**Selection Sort**
-* The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array
-* In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray
-* This is a different seperate sorting process as the others described
-* It has an O(n2) time complexity, which makes it inefficient on large lists, and generally performs worse than the similar insertion sort
+## Question 6
+![baka](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-24%20110534.png)
+* Rattrap similar and today should be the answer because the code tracks for the letters "art" rather than the full word to see if it matches anywhere within the word
+## Question 7
+![sus](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-24%20110805.png)
+* The output below matches the question code output, therefor this would be the correct answer. The one I had chosen was neither in the right order or had the right number or type of values that should be outputted.
 
-
-**Merge Sort**
-* Merge Sort is a Divide and Conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves
-* The merge() function is used for merging two halves. The merge(arr, l, m, r) is a key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one
-*  the array is recursively divided into two halves till the size becomes 1. Once the size becomes 1, the merge processes come into action and start merging arrays back till the complete array is merged.
-*  This is an example of a merge sort
-
-![susy](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-03%20214209.png)
-
-*  Overall time complexity of Merge sort is O(nLogn), Space complexity is O(n)
-*  This is an example flow chart of a merge sort in progress, top is the values given
-
-![sus](https://github.com/lucap2527/lucasus/blob/gh-pages/Merge-Sort-Tutorial.png)
-
-**Insertion Sort**
-* The array is virtually split into a sorted and an unsorted part
-* Values from the unsorted part are picked and placed at the correct position in the sorted part
-* The time complexity of the best case is O(N), space complexity is O(1), worst case time complexity is O(N^2) and average case time complexity is O(N^2)
-* These are the go to steps for running a insertion sort
-1. Iterate from arr[1] to arr[n] over the array
-2. Compare the current element (key) to its predecessor
-3. If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element
-* This is an example of a insertion sort code
-
-![image](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-03%20211537.png)
-
-**Bubble Sort**
-* Simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order
-* Bubble sort is often used to introduce the concept of a sorting algorithm
-* In computer graphics it is popular for its capability to detect a very small error
-* Works by sorting one value at a time, for example if you are running a sort to sort it by least to greatest (5,1,3) will turn into (1,5,3) on the first pass because it only goes one at a time
-* This is an example of bubble sort code
-
-![image2](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-03%20213818.png)
-
-* This is an example of a bubble sort pass through 
-* This algorithm has a worst-case time complexity of O(n2). The bubble sort has a space complexity of O(1).
-
-
-![image1](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-03%20211911.png)
-
-**Analytics**
-* Below is the summarized data from 12 trials of each sort type
-* Each trial includes a given 5000 elements per sort run
-* Below is what the data looks like after running 1 sort trial
-
-![image2](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-03%20212421.png)
-
-* The Analytical data is as follows:
-1. Bubble Sort - 112000423 Nanoseconds Average Random - 298
-2. Selection Sort - 89814213 Nanoseconds Average Rnadom - 273
-3. Insertion Sort - 79342132 Nanoseconds Average Random - 189
-4. Merge Sort - 91234121 Nanoseconds Average random - 255
-
-* As we can see by the data given above the fastest average time on my 12 attempts was the Insertion Sort which ran at 79342132 average, calculated by adding all the times and dividing by 12, same for the randoms.
-
-## Comp Sci Challenge Learnings ##
-* a LinkedList acts as a dynamic array and we do not have to specify the size while creating it, the size of the list automatically increases when we dynamically add and remove items. And also, the elements are not stored in a continuous fashion. Therefore, there is no need to increase the size. Internally, the LinkedList is implemented using the doubly linked list data structure. The main difference between a normal linked list and a doubly LinkedList is that a doubly linked list contains an extra pointer, typically called the previous pointer, together with the next pointer and data which are there in the singly linked list. 
-
-![money](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-03-20%20202958.png)
-## Point 1 ##
-* Generics means parameterized types. The idea is to allow type (Integer, String, … etc., and user-defined types) to be a parameter to methods, classes, and interfaces. Using Generics, it is possible to create classes that work with different data types. An entity such as class, interface, or method that operates on a parameterized type is a generic entity.
-* The Object is the superclass of all other classes, and Object reference can refer to any object. These features lack type safety. Generics add that type of safety feature. We will discuss that type of safety feature in later examples. Generics in Java are similar to templates in C++. For example, classes like HashSet, ArrayList, HashMap, etc., use generics very well. There are some fundamental differences between the two approaches to generic types. 
-![sus](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-03-20%20203333.png)
-## Point 2 ##
-* The Queue interface present in the java.util package and extends the Collection interface is used to hold the elements about to be processed in FIFO(First In First Out) order. It is an ordered list of objects with its use limited to insert elements at the end of the list and deleting elements from the start of the list, (i.e.), it follows the FIFO or the First-In-First-Out principle.
-* The remove() method of Queue Interface returns and removes the element at the front the container. It deletes the head of the container. The method throws an NoSuchElementException when the Queue is empty.
-![amogus](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-03-20%20203734.png)
-* In order to add an element in a queue, we can use the add() method. The insertion order is not retained in the PriorityQueue. The elements are stored based on the priority order which is ascending by default. 
-![amogus](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-03-20%20203709.png)
-## Point 3 ##
-* In order to merge 2 queues there is a list of steps you must go through:
-1) Make pointers for both of the queues.
-2) Make another queue, add the node having least value from the other two queues(the pointer's node having the smallest value) to it and move that pointer to the next node.
-3) Again compare the node's values and add the node having the smallest value to the queue and move that pointer to the next node.
-4) Keep doing this until rear of both the queues are reached.
-
-![bear](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-03-20%20204429.png)
-## Point 4 ##
-* For reversing the queue one approach could be to store the elements of the queue in a temporary data structure in a manner such that if we re-insert the elements in the queue they would get inserted in reverse order. So now our task is to choose such data-structure which can serve the purpose. According to the approach, the data-structure should have the property of ‘LIFO’ as the last element to be inserted in the data structure should actually be the first element of the reversed queue. The stack could help in approaching this problem. This will be a two-step process: 
-1. Pop the elements from the queue and insert into the stack. (Topmost element of the stack is the last element of the queue)
-2. Pop the elements of the stack to insert back into the queue. (The last element is the first one to be inserted into the queue)
-
-![duck](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-03-20%20204651.png)
-## Point 5 ##
-* There is a multitude of different functions one can perform with a stack, and with these are pretty much endless possibilities as to what you can do with these functions:
-1. push (to add a new item to the top)
-2. pop (to remove the most top item)
-3. peek (to get the most top item)
-4. isEmpty (to check whether the stack is empty)
-5. size (to get the size of the stack)
-6. search (to search for objects)
-* Here's an example of some functions above at work:
-![deer](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-03-20%20205017.png)
-
+![sussy](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-24%20110848.png)
+## Question 14
+![bakky](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-24%20111008.png)
+* Because the method isn't checking wether or not a has a greater than or EQUAL TO value compared to b the method may not work properly if they have the same values and it will output c instead.
+## Question 19
+![bakkkyy](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-24%20111444.png)
+* Because the x value starts at 1, the first condition wont run the while code at all, and the other two wont output anything because adding 2 to 1 while the while condition is true will never make the value even.
+## Question 22
+![22](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-24%20111729.png)
+* A is the correct code because it outputs by the row, than by the individual term least to greatest in terms of n of that row, so as n gets added 1 each time it moves down the row outputting 123456.
+## Question 26
+![26](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-24%20111926.png)
+* Because the change it code only changes the values within the respected method, it doesn't actually change the value and the other method start will print 123456 blackboard
+## Question 27
+![27](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-24%20112517.png)
+* The code at hand does not sort the data properly, so instead of least to greatest order throughout the whole data array, the last couple values will be switched due to code faults.
+## Question 28
+* Same code as above
+* The first value is already assigned to temp, therefore the temp assigned code only needs to run 5 times, but the compare code will have to run 15 times in order to compare the other values required to sort the values.
+## Question 33
+![33](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-24%20113039.png)
+* All code options at hand will correctly pick out the max value, one thing I learned from this question is integer.MIN_VALUE will give you the smallest possible value for a integer value which is -2^31
+## Question 35
+![35](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-24%20113407.png)
+* 6 is returned as that is the smallest n value in the array that has a 8 in it, the other positions would've been outputted if that 6th term 8 was replaced with something else.
+## Question 36
+* Same code as above
+* The midpoint will be calculated 11 times because that is how many times you will need to cut the data in half to find the target value confidently, you could do it less but at that point you would be estimating to a certain degree.
+## Question 37
+![37](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-24%20114305.png)
+* 2 and 3 are the only code options that properly give the intended result by concatenating the words or linking them together to give the intended string.
+## Question 38
+![38](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-24%20114634.png)
+* The code will scan throughout the array given called numbers and goes from right to left or end to beginning of the array and sees how many numbers are equal to the value being compared to. The method is reran everytime a number is compared to wether it is equal to or not with one less number in the array (the one compared to).
+## Question 39
+![39](https://github.com/lucap2527/lucasus/blob/gh-pages/Screenshot%202022-04-24%20115226.png)
+* The code will first output the arraylist going down the terms in order just as they're provided then the next line will just be alex because that is what the for loop is setting all the terms to.
